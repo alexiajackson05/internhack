@@ -1,27 +1,45 @@
 
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: blue ;
+    background-color: white ;
     overflow: hidden;
 }
 
-.active {
+.body {
+    background-color: rgb(148, 153, 155);
+}
 
-color: black;
-
+.container{
+    background-color: lightblue;
 }
   .text {
        position: relative;
-    color:black;
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
     font-weight: bold;
-    }
+    text-align: center;
 
+    }
+    .logoTwo{
+        height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+    float: right;
+
+    }
+    
+    .info{
+        text-align: center;
+    }
+   
     .logo {
-        display: inline-block;
-        vertical-align: top;
-        width: 20px;
-        height: 20px;
-        margin-left: 0px;
-       
-       }
+      height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+    float: left;  
+    left: 20px; 
+    
+}
