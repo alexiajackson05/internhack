@@ -1,0 +1,27 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: blue ;
+    overflow: hidden;
+}
+
+.active {
+
+color: black;
+
+}
+  .text {
+       position: relative;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 20px;
+        height: 20px;
+        margin-left: 0px;
+       
+       }
